@@ -17,6 +17,7 @@ main {
   background: rgba(18, 18, 18, 0.1);
 }
 .team-meet {
-  background-image: url(/images/banner1.png);
-  background-color: rgba(18, 18, 18, 0.1);
+  /* background-image: url(/images/banner1.png); */
+  background-size: cover;
+  /* background-color: rgba(18, 18, 18, 0.1); */
 }
