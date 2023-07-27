@@ -10,3 +10,6 @@ nav,header,main{
     max-width: 1440px;
     margin: 0 auto;
 }
+.h-bar{
+    background: rgba(18, 18, 18, 0.10);
+}
