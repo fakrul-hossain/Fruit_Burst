@@ -5,6 +5,7 @@
 body {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
 }
 nav,
 header,
@@ -17,5 +18,5 @@ main {
 }
 .team-meet {
   background-image: url(/images/banner1.png);
-  background-color: rgba(232, 2, 2, 0.5);
+  background-color: rgba(18, 18, 18, 0.1);
 }

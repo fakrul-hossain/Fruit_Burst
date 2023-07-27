@@ -39,10 +39,10 @@
       >
         <!-- navbar items -->
         <div class="hidden font-semibold lg:block space-x-3">
-          <a class="hover:text-violet-500 transition-all" href="#">Home</a>
-          <a class="hover:text-violet-500 transition-all" href="#">About Us</a>
-          <a class="hover:text-violet-500 transition-all" href="#">Shop</a>
-          <a class="hover:text-violet-500 transition-all" href="#"
+          <a class="hover:text-violet-500 transition-all" href="#home">Home</a>
+          <a class="hover:text-violet-500 transition-all" href="#about">About Us</a>
+          <a class="hover:text-violet-500 transition-all" href="#shop">Shop</a>
+          <a class="hover:text-violet-500 transition-all" href="#fruits"
             >All Fruits</a
           >
         </div>
@@ -79,12 +79,12 @@
             class="font-normal bg-[#F85559] text-center text-base space-y-2 dropdown-content z-[1] menu px-2 py-3 shadow bg-base-100 rounded-box w-52"
             tabindex="0"
           >
-            <a class="font-bold hover:text-violet-500 block" href="#">Home</a>
-            <a class="font-bold hover:text-violet-500 block" href="#"
+            <a class="font-bold hover:text-violet-500 block" href="#home">Home</a>
+            <a class="font-bold hover:text-violet-500 block" href="#about"
               >About Us</a
             >
-            <a class="font-bold hover:text-violet-500 block" href="#">Shop</a>
-            <a class="font-bold hover:text-violet-500 block" href="#"
+            <a class="font-bold hover:text-violet-500 block" href="#shop">Shop</a>
+            <a class="font-bold hover:text-violet-500 block" href="#fruits"
               >All Fruits</a
             >
             <!-- mobile search -->
@@ -258,7 +258,7 @@
     <!-- main section start  -->
     <main>
       <!-- deal section start -->
-      <section class="max-w-screen-xl mx-auto py-2 md:py-5 my-3 md:my-10">
+      <section id="fruits" class="max-w-screen-xl mx-auto py-2 md:py-5 my-3 md:my-10">
         <div
           class="flex gap-4 flex-col lg:flex-row justify-between items-center"
         >
@@ -743,7 +743,7 @@
       </section>
       <!-- fruits section end -->
       <!-- meet team section start -->
-      <section class="max-w-screen-xl mx-auto py-2 md:py-5 my-5 md:my-10">
+      <section id="about" class="max-w-screen-xl mx-auto py-2 md:py-5 my-5 md:my-10">
         <div
           class="lg:h-[690px] team-meet  h-auto w-[85%] md:w-full team-meet mx-auto rounded-lg bg-no-repeat bg-cover text-white flex flex-col justify-center bg-opacity-50 items-center gap-10 py-8">
           <!--  team header -->
@@ -880,7 +880,7 @@
       </section>
       <!-- meet team section end -->
       <!-- why choose section start -->
-       <section class="max-w-screen-xl mx-auto py-2 md:py-5 my-3 md:my-10">
+       <section id="shop" class="max-w-screen-xl mx-auto py-2 md:py-5 my-3 md:my-10">
         <div class="text-[#121212]">
           <!-- why choose  header -->
           <div class="text-center">
@@ -1034,8 +1034,52 @@
     </main>
     <!-- main section end  -->
     <!-- footer section start -->
-    <footer>
-
+    <footer class="w-full mt-7 md:mt-36">
+      <div
+        class="h-[270px] md:h-[526px] bg-[#121212] text-white flex flex-col justify-center items-center gap-6 md:gap-16"
+      >
+        <!-- footer logo -->
+        <div class="flex flex-row justify-center items-center gap-6">
+          <figure>
+            <img
+              class="w-[30px] h-[35px] md:w-[54px] md:h-[60px]"
+              src="./images/logo.png"
+              alt="nav img"
+            />
+          </figure>
+          <h2 class="font-bold text-2xl md:text-4xl">Fruit Burst</h2>
+        </div>
+        <!--  link -->
+        <div class="space-x-10 flex flex-wrap px-10 md:px-0 justify-center">
+          <a href="#home">Home</a>
+          <a href="#about">About us</a>
+          <a href="#shop">Shop</a>
+          <a href="#fruits">All Fruits</a>
+          <a href="#support">Support</a>
+          <a href="#account">My Account</a>
+        </div>
+        <!-- social icon -->
+        <div class="space-x-10 flex flex-wrap px-10 md:px-0 justify-center">
+          <a href="#">
+            <i class="fa-brands fa-twitter text-2xl md:text-4xl"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-facebook text-2xl md:text-4xl"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-youtube text-2xl md:text-4xl"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-linkedin text-2xl md:text-4xl"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-square-instagram text-2xl md:text-4xl"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-apple text-2xl md:text-4xl"></i>
+          </a>
+        </div>
+      </div>
     </footer>
     <!-- footer section end -->
   </body>
