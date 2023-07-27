@@ -13,3 +13,9 @@ nav,header,main{
 .h-bar{
     background: rgba(18, 18, 18, 0.10);
 }
+.team-meet{
+    /* background-image: url('./images/banner1.png') */
+    background-image: url(/images/banner1.png);
+/* background: rgba(18, 18, 18, 0.70); */
+/* opacity: 0.2; */
+}
